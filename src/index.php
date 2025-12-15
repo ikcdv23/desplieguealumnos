@@ -1,4 +1,3 @@
 <?php
-echo "<h1>Aplicación funcionando en Railway</h1>";
-echo "<p>Docker + PHP + Railway</p>";
-echo "<p>Hora del servidor: " . date("H:i:s") . "</p>";
+echo "<h1>Railway funcionando</h1>";
+echo "<p>Hola " . getenv('APP_NAME') . "</p>";
